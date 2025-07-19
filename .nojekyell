@@ -1,0 +1,5 @@
+cd path/to/VH_helix
+touch .nojekyll
+git add .nojekyll index.html VHhelix_model.glb
+git commit -m "Add static files for GitHub Pages"
+git push origin main
